@@ -1,14 +1,14 @@
-import './index.css'
+import "./index.css";
+import { Header } from "./components/layout/header";
+import { CsvValidator } from "./components/pages/csvValidator";
 
 function App() {
-
   return (
     <>
-      <div className='w-full h-screen flex items-center justify-center  '>
-        <p className="text-3xl  font-bold underline">Woodland Trust</p>
-      </div>
+        <Header />
+        <CsvValidator />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
