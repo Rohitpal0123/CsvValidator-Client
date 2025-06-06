@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className='w-full h-screen flex items-center justify-center  '>
-        <p className="text-3xl  font-bold underline">Hello World!</p>
+        <p className="text-3xl  font-bold underline">Woodland Trust</p>
       </div>
     </>
   )
