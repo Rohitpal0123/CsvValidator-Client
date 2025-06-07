@@ -1,6 +1,6 @@
 import "./index.css";
-import { Header } from "./components/layout/header";
-import { CsvValidator } from "./components/pages/csvValidator";
+import { Header } from "./components/layout/Header";
+import { CsvValidator } from "./components/pages/CsvValidator";
 
 function App() {
   return (
